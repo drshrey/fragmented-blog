@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: '15',
         maxWidth: 960,
-        paddingLeft: 10,
+        paddingLeft: 25,
         paddingTop: 5
       }}
     >
@@ -27,6 +27,7 @@ const Header = ({ siteTitle }) => (
             fontWeight: 200,
             fontFamily: 'helvetica'
           }}
+          className="headerLink"
         >
           {siteTitle}
         </Link>
@@ -38,9 +39,10 @@ const Header = ({ siteTitle }) => (
             fontSize: 17,
             fontWeight: 200,
             fontFamily: 'helvetica',
-            paddingLeft: 30
+            marginLeft: 30
           }}
           to="/essays"
+          className="headerLink"
         >
           Essays
         </Link>
@@ -51,9 +53,10 @@ const Header = ({ siteTitle }) => (
             fontSize: 17,
             fontWeight: 200,
             fontFamily: 'helvetica',
-            paddingLeft: 30
+            marginLeft: 30
           }}
           to="/implementations"
+          className="headerLink"
         >
            Implementations
         </Link>
@@ -64,9 +67,10 @@ const Header = ({ siteTitle }) => (
             fontSize: 17,
             fontWeight: 200,
             fontFamily: 'helvetica',
-            paddingLeft: 30
+            marginLeft: 30
           }}
           to="/diagrams"
+          className="headerLink"
         >
            Diagrams
         </Link>

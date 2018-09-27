@@ -6,6 +6,9 @@ html {
 body {
   margin: 0;
 }
+.headerLink:hover {
+    border-bottom: 1px solid white;
+}
 article,
 aside,
 details,
@@ -624,3 +627,4 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
