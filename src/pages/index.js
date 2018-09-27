@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <p>
-     Hi, my name is Shreyas. This blog is mostly for myself right now, but there is a part of me that hopes you find do something helpful in here. If you want to talk, email me at shreyas |dot| jaganmohan at gmail [dot] com.
+     Hi, my name is Shreyas. This blog is mostly for myself right now, but there is a part of me that hopes you do find something helpful in here. If you want to talk, email me at shreyas |dot| jaganmohan at gmail [dot] com.
     </p>
     <img style={{
         marginLeft: 'auto',

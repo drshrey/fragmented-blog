@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Fragmented.',
+    title: 'Fragmented Space.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
